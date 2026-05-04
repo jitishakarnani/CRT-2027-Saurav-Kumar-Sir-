@@ -18,7 +18,7 @@ int main() {
 			cout << "*";
 		}
 
-		cout << endl;
+		cout << __GCC_IEC_559;
 	}
 
 	return 0;
