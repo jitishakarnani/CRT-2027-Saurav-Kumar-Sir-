@@ -31,7 +31,7 @@ public:
 int main()
 {
     students s1;
-    //students s1(303, "Janvi"); for parameterized constructors
+    //students s1("Janvi", 303); for parameterized constructors
     s1.show();
     return 0;
 }
