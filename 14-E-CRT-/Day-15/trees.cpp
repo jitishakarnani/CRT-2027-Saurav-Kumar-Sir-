@@ -26,9 +26,9 @@ int main() {
     TreeNode* T2 = new TreeNode(2);  
     TreeNode* T3 = new TreeNode(3);  
 
-    T1->setLeft(T2);   // fixed case + used setter
-    T1->setRight(T3);  // fixed: T1's right, not T2's
-
+    T1->setLeft(T2);   
+    T1->setRight(T3);
+    
     cout << T1->getData() << " "
          << T1->getLeft()->getData() << " "
          << T1->getRight()->getData() << endl;
